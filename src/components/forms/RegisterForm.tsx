@@ -3,6 +3,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { register } from "../../services/authService";
 import { AxiosResponse } from "axios";
+import "../../css/register.css";
 
 // Define Schema of validation with Yup
 const registerSchema = Yup.object().shape({
@@ -10,7 +11,9 @@ const registerSchema = Yup.object().shape({
     .email("Invalid Email Format")
     .required("Email is required"),
   password: Yup.string().required("Password is required"),
-  repassword: Yup.string().required("Password confirmation is required"),
+  repassword: Yup.string()
+    .oneOf([Yup.ref("password")], "Passwords must match")
+    .required("Password confirmation is required"),
   name: Yup.string().required("Name is required"),
   age: Yup.string().required("Age is required"),
 });
@@ -69,7 +72,11 @@ const RegisterForm = () => {
             />
             {/* Email Errors */}
             {errors.email && touched.email && (
-              <ErrorMessage name="email" component="div"></ErrorMessage>
+              <ErrorMessage
+                className="error"
+                name="email"
+                component="div"
+              ></ErrorMessage>
             )}
 
             {/* Password Field */}
@@ -82,20 +89,28 @@ const RegisterForm = () => {
             />
             {/* Password Errors */}
             {errors.password && touched.password && (
-              <ErrorMessage name="password" component="div"></ErrorMessage>
+              <ErrorMessage
+                className="error"
+                name="password"
+                component="div"
+              ></ErrorMessage>
             )}
 
             {/* Confirm Passowrd Field */}
             <label htmlFor="repassword">Confirm Password</label>
             <Field
               id="repassword"
-              type="repassword"
+              type="password"
               name="repassword"
               placeholder="********"
             />
             {/* Confirm Password Errors */}
             {errors.repassword && touched.repassword && (
-              <ErrorMessage name="repassword" component="div"></ErrorMessage>
+              <ErrorMessage
+                className="error"
+                name="repassword"
+                component="div"
+              ></ErrorMessage>
             )}
 
             {/* Name Field */}
@@ -103,7 +118,11 @@ const RegisterForm = () => {
             <Field id="name" type="text" name="name" placeholder="john" />
             {/* Name Errors */}
             {errors.name && touched.name && (
-              <ErrorMessage name="name" component="div"></ErrorMessage>
+              <ErrorMessage
+                className="error"
+                name="name"
+                component="div"
+              ></ErrorMessage>
             )}
 
             {/* Age Field */}
@@ -111,7 +130,11 @@ const RegisterForm = () => {
             <Field id="age" type="number" name="age" placeholder="..." />
             {/* Age Errors */}
             {errors.age && touched.age && (
-              <ErrorMessage name="age" component="div"></ErrorMessage>
+              <ErrorMessage
+                className="error"
+                name="age"
+                component="div"
+              ></ErrorMessage>
             )}
 
             {/* Submit */}
