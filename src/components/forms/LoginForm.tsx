@@ -27,10 +27,6 @@ const LoginForm = () => {
         initialValues={initialCredentials}
         validationSchema={loginSchema}
         onSubmit={async (values) => {
-          // await new Promise((response) => setTimeout(() => response, 1000));
-          // alert(JSON.stringify(values, null, 2));
-          // console.table(values);
-
           login(values.email, values.password)
             .then((response: AxiosResponse) => {
               if (response.status === 200) {

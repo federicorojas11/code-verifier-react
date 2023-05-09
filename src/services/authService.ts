@@ -41,5 +41,5 @@ export const register = (
 
   // send POST register request endpoint
   // http://localhost:8000/api/auth/register
-  return axios.post("/auth/login", body);
+  return axios.post("/auth/register", body);
 };
