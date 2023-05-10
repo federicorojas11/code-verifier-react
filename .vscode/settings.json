@@ -1,0 +1,13 @@
+{
+  /* docs: https://code.visualstudio.com/api/references/theme-color */
+  "workbench.colorCustomizations": {
+    "activityBar.activeFocusBorder": "#4e0d77",
+    "activityBar.activeBorder": "#841b99",
+    "sideBar.background": "#282536",
+    "editor.background": "#1e1327",
+    "editorGroupHeader.tabsBackground": "#1e1327",
+    "tab.inactiveBackground": "#272734",
+    "tab.border": "#444048ca",
+    "tab.unfocusedHoverBorder": "#ffffff0e"
+  }
+}
