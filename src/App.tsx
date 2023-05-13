@@ -41,7 +41,7 @@ function App() {
 
         {/* // TODO: Export to Routes folder */}
         <Routes>
-          <Route path="/home" element={<HomePage />}></Route>
+          <Route path="/" element={<HomePage />}></Route>
           <Route path="/login" element={<LoginPage />}></Route>
           <Route path="/register" element={<RegisterPage />}></Route>
           <Route path="/katas" element={<KatasPage />}></Route>

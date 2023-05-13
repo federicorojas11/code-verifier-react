@@ -3,6 +3,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { login } from "../../services/authService";
 import { AxiosResponse } from "axios";
+import { useNavigate } from "react-router-dom";
 
 // Define Schema of validation with Yup
 const loginSchema = Yup.object().shape({
@@ -20,6 +21,8 @@ const LoginForm = () => {
     password: "",
   };
 
+  let navigate = useNavigate();
+
   return (
     <div>
       <h4>Login Form</h4>
@@ -32,6 +35,7 @@ const LoginForm = () => {
               if (response.status === 200) {
                 if (response.data.token) {
                   sessionStorage.setItem("sessionJWToken", response.data.token);
+                  navigate("/");
                 } else {
                   throw new Error("Error generating auth token");
                 }

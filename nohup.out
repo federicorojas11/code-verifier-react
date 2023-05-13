@@ -1,0 +1,84 @@
+The disableGPU setting is set to undefined
+Not disabling GPU
+Gtk-Message: 16:39:07.430: Failed to load module "canberra-gtk-module"
+Gtk-Message: 16:39:07.438: Failed to load module "canberra-gtk-module"
+ProtocolHandler~setDefaultProtocolClient: Command failed: xdg-mime default Postman.desktop x-scheme-handler/postman
+/bin/sh: 1: xdg-mime: not found
+
+Error org.freedesktop.DBus.Error.Failed: cannot find desktop file "/var/lib/snapd/desktop/applications/postman_Postman.desktop"
+[9119:0513/163907.896813:ERROR:angle_platform_impl.cc(44)] Display.cpp:966 (initialize): ANGLE Display::initialize error 12289: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9119:0513/163907.896995:ERROR:gl_surface_egl.cc(808)] EGL Driver message (Critical) eglInitialize: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9119:0513/163907.897077:ERROR:gl_surface_egl.cc(1430)] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[9119:0513/163907.897244:ERROR:angle_platform_impl.cc(44)] Display.cpp:966 (initialize): ANGLE Display::initialize error 12289: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9119:0513/163907.897288:ERROR:gl_surface_egl.cc(808)] EGL Driver message (Critical) eglInitialize: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9119:0513/163907.897312:ERROR:gl_surface_egl.cc(1430)] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[9119:0513/163907.897332:ERROR:gl_ozone_egl.cc(20)] GLSurfaceEGL::InitializeOneOff failed.
+Main~createDefaultWorkingDir - Default working dir creation already attempted
+[9119:0513/163907.957450:ERROR:viz_main_impl.cc(188)] Exiting GPU process due to errors during initialization
+1684006747965 main info "Booting Postman 10.13.0, linux-5.15.0-71-generic on x64"
+1684006747967 main info "EventBus~initialize - Success"
+1684006747974 main info "Proxy configuration has not been setup"
+1684006747975 main info "CloudProxyManager~init - Success"
+[9138:0513/163907.979182:ERROR:angle_platform_impl.cc(44)] Display.cpp:966 (initialize): ANGLE Display::initialize error 12289: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9138:0513/163907.979274:ERROR:gl_surface_egl.cc(808)] EGL Driver message (Critical) eglInitialize: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9138:0513/163907.979308:ERROR:gl_surface_egl.cc(1430)] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[9138:0513/163907.979411:ERROR:angle_platform_impl.cc(44)] Display.cpp:966 (initialize): ANGLE Display::initialize error 12289: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9138:0513/163907.979445:ERROR:gl_surface_egl.cc(808)] EGL Driver message (Critical) eglInitialize: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9138:0513/163907.979471:ERROR:gl_surface_egl.cc(1430)] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[9138:0513/163907.979496:ERROR:gl_ozone_egl.cc(20)] GLSurfaceEGL::InitializeOneOff failed.
+[9138:0513/163907.980234:ERROR:viz_main_impl.cc(188)] Exiting GPU process due to errors during initialization
+1684006748012 main info "performShellDataMigration: Migration has already been done. Bailing out"
+[9145:0513/163908.017375:ERROR:angle_platform_impl.cc(44)] Display.cpp:966 (initialize): ANGLE Display::initialize error 12289: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9145:0513/163908.017448:ERROR:gl_surface_egl.cc(808)] EGL Driver message (Critical) eglInitialize: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9145:0513/163908.017473:ERROR:gl_surface_egl.cc(1430)] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[9145:0513/163908.017565:ERROR:angle_platform_impl.cc(44)] Display.cpp:966 (initialize): ANGLE Display::initialize error 12289: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9145:0513/163908.017589:ERROR:gl_surface_egl.cc(808)] EGL Driver message (Critical) eglInitialize: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9145:0513/163908.017611:ERROR:gl_surface_egl.cc(1430)] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[9145:0513/163908.017636:ERROR:gl_ozone_egl.cc(20)] GLSurfaceEGL::InitializeOneOff failed.
+[9145:0513/163908.018407:ERROR:viz_main_impl.cc(188)] Exiting GPU process due to errors during initialization
+1684006748021 main info "UpdateHandler~init - Success"
+1684006748023 main info "LeaderSelection: Initialized successfully"
+1684006748024 main info "VersionDependencyService: Initialized successfully"
+1684006748031 main info "LinuxAutoUpdater~Cleanup - Initial cleanup successful"
+[9152:0513/163908.035320:ERROR:angle_platform_impl.cc(44)] Display.cpp:966 (initialize): ANGLE Display::initialize error 12289: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9152:0513/163908.035416:ERROR:gl_surface_egl.cc(808)] EGL Driver message (Critical) eglInitialize: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9152:0513/163908.035438:ERROR:gl_surface_egl.cc(1430)] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[9152:0513/163908.035513:ERROR:angle_platform_impl.cc(44)] Display.cpp:966 (initialize): ANGLE Display::initialize error 12289: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9152:0513/163908.035535:ERROR:gl_surface_egl.cc(808)] EGL Driver message (Critical) eglInitialize: Could not dlopen libGL.so.1: libGL.so.1: cannot open shared object file: No such file or directory
+[9152:0513/163908.035554:ERROR:gl_surface_egl.cc(1430)] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[9152:0513/163908.035573:ERROR:gl_ozone_egl.cc(20)] GLSurfaceEGL::InitializeOneOff failed.
+[9152:0513/163908.036312:ERROR:viz_main_impl.cc(188)] Exiting GPU process due to errors during initialization
+1684006748048 main info "GPU detected VID 0 DID 0 ACTIVE false"
+1684006748062 main info "shellController~init: Success"
+1684006748065 main info "shellMeta~init: Success"
+1684006748065 main info "partitionMigrationService: State of V7 partition:"
+1684006748066 main info "partitionMigrationService: V7 partitions",[]
+1684006748066 main info "partitionMigrationService~rectifyNamespaceOfScratchPadPartition: There is no partition with scratchpad namespace"
+1684006748066 main info "partitionMigrationService~rectifyNamespaceOfScratchPadPartition: There is no transit partition which could have been used for scratchpad"
+1684006748066 main info "partitionMigrationService~init: Success"
+1684006748072 main info "partitionMigrationService~runV8PartitionsIntegrity: Two way migration~ removing the following partitions from v8",[]
+1684006748074 main info "userPartitionService~_rectifyTheActivePartitionOfApplication: Setting the active partition to ",null
+1684006748079 main info "userPartitionService~init: Success"
+1684006748088 main info "userPartitionService: State of v8 partition system:"
+1684006748089 main info "shell~init~getPartitionToLoad: loading scratchpad partition"
+1684006748090 main info "userPartitionService: List of partitions:",[{"partitionId":"dae83ac0-80b9-49ad-aa71-9f14bf32b612","namespace":"scratchPad","userId":0,"teamId":0,"isDirty":false}]
+1684006748090 main info "userPartitionService: users global meta:",{}
+[9160:0513/163908.379921:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+MESA-LOADER: failed to open iris (search paths /snap/postman/204/usr/lib/x86_64-linux-gnu/dri)
+failed to load driver: iris
+MESA-LOADER: failed to open kms_swrast (search paths /snap/postman/204/usr/lib/x86_64-linux-gnu/dri)
+failed to load driver: kms_swrast
+MESA-LOADER: failed to open swrast (search paths /snap/postman/204/usr/lib/x86_64-linux-gnu/dri)
+failed to load swrast driver
+
+(postman:8186): dbind-WARNING **: 16:39:08.708: Couldn't connect to accessibility bus: Failed to connect to socket /tmp/dbus-Mper6Hsg7J: No such file or directory
+1684006752012 main info "RuntimeIPCAgent~started: Success"
+INTERCEPTOR CONNECTIVITY: Connecting to Interceptor Bridge
+InterceptorBridge: Trying to connect Native App IPC~Interceptor Bridge
+IPCClient ~ WindowHandler: New event is received { type: 'window-opened' }
+1684006752157 main info "windowManager: First requester booted successfully."
+1684006752157 main info "windowManager~restoreWindows: Restoring requester windows"
+1684006752157 main info "Main~AppEvents - Received booted event for process requester.Version undefined UI Version: undefined Desktop Platform Version: 10.13.0"
+1684006753611 main info "WindowManager~closeHandler - Closed Window (id: 1 )"
+IPCClient ~ WindowHandler: New event is received { type: 'window-closed', windowId: 1 }
+1684006753672 main info "Quitting app"
