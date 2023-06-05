@@ -14,3 +14,18 @@ export const getAllKatas = (token: string, limit?: number, page?: number) => {
 
   return axios.get("katas", options);
 };
+
+export const getKataByID = (token: string, id: string) => {
+  // GET http://localhost:8000/api/users/katas?id=644154f4add251e028be8afa
+
+  // Add headers with JWT in x-access-token
+  console.log("token:", token);
+
+  const options: AxiosRequestConfig = {
+    headers: {
+      "x-access-token": token,
+    },
+    params: { id },
+  };
+  return axios.get("katas", options);
+};

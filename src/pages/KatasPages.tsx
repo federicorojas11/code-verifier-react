@@ -80,13 +80,6 @@ export const KatasPage = () => {
           <h5>No katas found</h5>
         </div>
       )}
-
-      <ul>
-        {/* // TODO Export to isolated component */}
-        <li onClick={() => navigateToKataDetail(1)}>First Kata</li>
-
-        <li onClick={() => navigateToKataDetail(2)}>Second Kata</li>
-      </ul>
     </div>
   );
 };

@@ -5,6 +5,7 @@ import styles from "styles.module.css";
 interface EditorProps {
   language?: any;
   children?: any;
+  solution?: any;
 }
 
 const codeBlock = `
@@ -18,9 +19,9 @@ const GroceryItem: React.FC<GroceryItemProps> = ({ item }) => {
   );
 }`;
 
-export const Editor = ({ language, children }: EditorProps) => {
+export const Editor = ({ language, children, solution }: EditorProps) => {
   return (
-    <Highlight theme={themes.shadesOfPurple} code={codeBlock} language="tsx">
+    <Highlight theme={themes.shadesOfPurple} code={solution} language="tsx">
       {({ className, style, tokens, getLineProps, getTokenProps }) => (
         <pre style={style}>
           {tokens.map((line, i) => (
